@@ -1,0 +1,145 @@
+
+
+:root {
+    --cor-de-fundo: #ffc1fb;
+    --branco: #FFFFFF;
+    --cor-cabecalho:#FFC1FB;
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+}
+.menu-hamburguer {
+    width:40px;
+    height: 30px;
+    display: inline-block;
+    background-image: url("img/menu.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.botaomenu{
+    display: none;
+}
+.cabeçalho {
+    height: 100%;
+    background-color: var(--cor-cabecalho);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+.logo-img{
+    width: 80%;
+}
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.container__imagem {
+    padding-left: 1em;
+}
+.barrapesquisa{
+    padding: 0.4em;
+    background-color: #FFC1FB;
+    text-align: center;
+
+}
+.inputtexto{
+    border-radius: 8px;
+    border: solid 2px #ef3ab7;
+    width: 60vw;
+}
+.imgbanner{
+width: 100vw;
+}
+.imgcafe{
+    width: 80vw;
+
+}   
+.cafe1{
+    text-align: center;
+}
+
+.polaroid{
+    width: 25vw;
+   justify-content: center;
+
+}
+.imgcafe1{
+    display: flex;
+    justify-content: space-around;
+}
+footer{
+    background-color:#ef3ab7;
+    color: #ffffff;
+    height: 50px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.barrapesquisacabecado{
+    display: none;
+}
+
+@media screen and (min-width: 900px) {
+    .inputtexto{
+        width: 15vw;
+        margin-left: -20vw;
+    }
+    .barrapesquisa{
+        display: none;
+    }
+    .barrapesquisacabecado{
+        display: ruby;
+    }
+   .logo-img{
+        width: 25vw;
+        margin-left: -25vw;
+
+    }
+   
+    .cabeçalho{
+        height: 100px;
+    }
+    .imgbanner{
+        width: 50vw;
+    }
+    .banner{
+        padding: 3em;
+        text-align: center;
+    }
+    .menu-hamburguer {
+        margin-left: 2vw;
+        width: 2.5vw;
+    }
+    .texto{
+        font-size: 50px;
+    }
+    .container__imagem{
+        width: 2.5vw;
+        margin-right: 30px;
+    }
+    .imgcafe{
+        width: 50vw;
+    }
+    .polaroid{
+        width: 15vw;
+    
+    }
+    footer{
+        background-color:#ef3ab7;
+        color: #ffffff;
+        height: 50px;
+        text-align: center;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+    }
+    h2{
+        margin-left: -70vw;
+    }
+}                                                   
